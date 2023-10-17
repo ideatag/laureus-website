@@ -1,0 +1,518 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./app/_components/subscribe-email-dialog/subscribe-email-dialog.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************/
+.subscribe-email-dialog-box{
+    position: fixed;
+    width: 360px;
+    height: 304px;
+    background-color: var(--white);
+    bottom: 20px;
+    transition: 0.3s;
+    border-radius: 8px;
+    box-shadow: 0px 11px 15px -7px rgba(0,0,0,0.2), 0px 24px 38px 3px rgba(0,0,0,0.14), 0px 9px 46px 8px rgba(0,0,0,0.12);
+    padding: 24px;
+    z-index: 1;
+    
+}
+.subscribe-email-dialog-close-animation{
+    right: -412px;
+}
+.subscribe-email-dialog-open-animation{
+    right: 40px
+}
+
+.subscribe-email-dialog-x{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: -16px;
+    right: -16px;
+    cursor: pointer;
+    background-color: var(--darkBlue);
+    color: var(--white);
+}
+.subscribe-email-dialog-content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.subscribe-email-dialog-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.subscribe-dialog-text{
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--darkBlue);
+    max-width: 252px;
+}
+.subscribe-dialog-email-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--darkBlue);
+    min-width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    color: var(--white);
+}
+.subscribe-btn{
+    background-color: var(--darkBlue);
+    color: var(--white);
+    border-radius: 20px;
+    padding: 12px;
+    cursor: pointer;
+    margin-top: -24px;
+    border: 2px solid transparent;
+    font-size: 16px;
+}
+.subscribe-btn:hover{
+    background-color: var(--white);
+    border: 2px solid var(--darkBlue);
+    color: var(--darkBlue);
+}
+.subscribe-dialog-email-input{
+    background-color: rgb(237, 242, 247);
+    padding: 12px;
+    border-radius: 20px;
+    outline: none;
+    font-size: 20px;
+    color: var(--darkBlue);
+}
+.subscribe-email-dialog-close-icon{
+    font-size: 20px;
+}
+.subscribe-dialog-middle-text{
+    font-size: 16px;
+}
+@media (max-width:768px) {
+    .subscribe-email-dialog-open-animation{
+        right: 4%;
+    }
+    .subscribe-email-dialog-close-animation{
+        right: -710px;
+    }
+   .subscribe-email-dialog-box{
+        width: 50%;
+
+   }
+   .subscribe-dialog-email-input{
+    text-align: center;
+   }
+   
+}
+@media (max-width:640px) {
+
+    .subscribe-email-dialog-open-animation{
+        position: fixed;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+   .subscribe-email-dialog-box{
+    width: 72%;
+   }
+   .subscribe-btn{
+    margin-top: 0px;
+   }
+   .subscribe-dialog-text{
+    font-size: 20px;
+   }
+   .dialog-middle-text{
+    font-size: 16px;
+   }
+  
+   
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./app/_components/donations-banner/DonationsBanner.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************/
+.donations-banner-container {
+  background: linear-gradient(
+      90deg,
+      rgba(2, 41, 75, 1) 25%,
+      rgba(66, 137, 199, 0) 100%,
+      rgba(246, 241, 245, 0) 80%
+    ),
+    url(https://www.laureus.com/getmedia/a686a970-6300-41f7-91cc-dcb667d44ed1/93518641_JH_7476_8C2FDD6C0300DAB89D420DD98667A1F0.jpg?width=1280);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.donations-banner-data {
+  margin: auto;
+  padding: 80px 24px;
+}
+.donations-banner-data h4 {
+  text-transform: uppercase;
+  font-size: 14px;
+  margin: 12px 0 4px 0;
+  color: rgba(255, 255, 255, 0.66);
+}
+.donations-banner-data h3 {
+  margin: 16px 0 4px 0;
+  font-size: 48px;
+  color: var(--white);
+}
+
+.donations-banner-link {
+  text-decoration: none;
+}
+
+.donations-banner-data p {
+  color: var(--white);
+  font-weight: bold;
+  font-size: 18px;
+  max-width: 600px;
+}
+
+.donations-banner-button {
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 28px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: transparent;
+  border: 2px solid var(--white);
+  width: 132px;
+  height: 44px;
+  border-radius: 200px;
+  transition: background 0.3s;
+}
+.donations-banner-button:hover {
+  background: var(--white);
+  color: var(--darkBlue);
+}
+@media (min-width: 640px) {
+  .donations-banner-data {
+    padding: 80px 112px;
+  }
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./app/_components/latest-laureus-news/LatestLaureusNews.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************/
+.latest-laureus-news-container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 20px; 
+  background-color: #e1e6e977;
+}
+.latest-laureus-news-title {
+  color: var(--darkBlue);
+  font-size: 40px;
+  line-height: normal;
+  text-align: center;
+  font-weight: 700;
+  font-family: Roboto, sans-serif;
+  margin-top: 40px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.latest-laureus-news-card-link {
+  width: calc(33.33% - 20px);
+  margin-top: 24px;
+  margin-bottom: 20px;
+  background-color: var(--white);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  text-decoration: none;
+}
+.latest-laureus-news-card-media {
+  overflow: hidden;
+}
+.latest-laureus-news-card-media img {
+  height: 100%;
+  width: 100%;
+  min-height: 290px;
+  object-fit: cover;
+  transition: transform 0.2s ease;
+}
+.latest-laureus-news-card-media:hover img {
+  transform: scale(1.05);
+}
+.latest-laureus-news-card-title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.2;
+  color: #00153a;
+  margin-top: 40px;
+  margin-bottom: 12px;
+  word-break: break-word;
+  padding: 0 15px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.latest-laureus-news-card-date {
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  color: var(--darkBlue);
+  padding: 4px 16px;
+  margin-top: auto;
+}
+.latest-laureus-news-button {
+  border-radius: 100px;
+  border: 2px solid transparent;
+  color: var(--white);
+  background-color: var(--darkBlue);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  line-height: normal;
+  padding: 10px 20px;
+  letter-spacing: 0.2px;
+  font-family: Roboto, sans-serif;
+}
+.latest-laureus-news-button:hover {
+  color: var(--darkBlue);
+  background-color: var(--white);
+}
+.latest-laureus-news-link {
+  text-decoration: none;
+}
+
+.latest-laureus-news-button-container {
+  text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+  .latest-laureus-news-card-link {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .latest-laureus-news-title {
+    font-size: 28px;
+    margin-top: 28px;
+  }
+
+  .latest-laureus-news-card-media img {
+    min-height: 200px;
+  }
+
+  .latest-laureus-news-card-title {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  .latest-laureus-news-card-date {
+    padding: 5px 10px;
+  }
+
+  .latest-laureus-news-button {
+    font-size: 12px;
+    padding: 8px 15px;
+  }
+}
+
+@media screen and (min-width: 641px) {
+  .latest-laureus-news-card-link {
+    width: calc(33.33% - 20px);
+    margin: 25px 0;
+  }
+
+  .latest-laureus-news-title {
+    font-size: 40px;
+    margin-top: 40px;
+  }
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./app/_components/social-focus-areas/SocialFocusAreas.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************/
+.social-areas-container {
+  text-align: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: var(--darkBlue);
+}
+
+.social-focus-container {
+  display: grid;
+  grid-template-columns: 1 fr;
+  grid-gap: 24px;
+  gap: 24px;
+}
+
+.social-areas-container > h1 {
+  font-size: 24px;
+  margin: 16px 0px;
+  text-transform: uppercase;
+}
+
+.social-focus-area-image {
+  width: 84px;
+  height: 84px;
+}
+
+.social-focus-area-title {
+  font-size: 18px;
+  margin: 12px 0px 8px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+.social-focus-area-paragraph {
+  font-size: 14px;
+  text-align: left;
+  margin: 12px 0px 0px;
+  line-height: 1.2;
+  letter-spacing: 0.8px;
+  -webkit-hyphens: auto;
+          hyphens: auto;
+}
+
+@media (min-width: 640px) {
+  .social-focus-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
+  }
+  .social-areas-container > h1 {
+    margin-bottom: 48px;
+  }
+}
+
+@media (min-width: 768px) {
+  .social-focus-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+  }
+
+  .social-areas-container > h1 {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .social-areas-container > h1 {
+    font-size: 48px;
+    margin: 16px auto;
+    width: 600px;
+  }
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./app/_components/header/Header.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.homepage-header-container {
+  height: calc(100vh - 86px);
+  background-image: linear-gradient(to top, #02294bcc 0%, #02294b1c 100%),
+    url(/_next/static/media/Group-Selfie.625dd1e7.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.homepage-header {
+  height: 100%;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.homepage-header-elements {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.homepage-header-elements > h1 {
+  color: var(--white);
+  font-size: 24px;
+  text-align: center;
+}
+
+.homepage-header-elements > h3 {
+  color: var(--white);
+  font-size: 16px;
+  text-align: center;
+  margin-top: 28px;
+}
+
+@media screen and (min-width: 768px) {
+  .homepage-header-elements > h1 {
+    width: 75%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .homepage-header-container {
+    background-image: linear-gradient(to right, #02294bcc 0%, #02294b1c 100%),
+      url(/_next/static/media/Group-Selfie.625dd1e7.jpg);
+  }
+
+  .homepage-header-elements > h1 {
+    font-size: 32px;
+    text-align: start;
+  }
+
+  .homepage-header-elements {
+    align-items: flex-start;
+  }
+
+  .homepage-header-elements > h3 {
+    font-size: 28px;
+    text-align: start;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .homepage-header-elements > h1 {
+    font-size: 36px;
+  }
+}
+
+@media screen and (min-width: 1536px) {
+  .homepage-header-elements > h1 {
+    font-size: 44px;
+  }
+}
+
+/*!************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./app/_components/banner-subheader/BannerSubheader.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************/
+.banner-subheader-container {
+  padding-top: 32px;
+  text-align: center;
+  color: var(--darkBlue);
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  justify-content: center;
+}
+
+.banner-subheader-first-paragraph {
+  margin-bottom: 20px;
+}
+
+.banner-subheader-second-paragraph {
+  margin-bottom: 20px;
+}
+

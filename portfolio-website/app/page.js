@@ -13,7 +13,7 @@ const Home = () => {
       <BannerSubheader />
       <SocialFocusAreas />
       <DonationsBanner />
-      {/* <LatestLaureusNews/> */}
+      <LatestLaureusNews />
     </main>
   );
 };
