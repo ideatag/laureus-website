@@ -1,0 +1,129 @@
+.subscribe-email-dialog-box{
+    position: fixed;
+    width: 360px;
+    height: 304px;
+    background-color: var(--white);
+    bottom: 20px;
+    transition: 0.3s;
+    border-radius: 8px;
+    box-shadow: 0px 11px 15px -7px rgba(0,0,0,0.2), 0px 24px 38px 3px rgba(0,0,0,0.14), 0px 9px 46px 8px rgba(0,0,0,0.12);
+    padding: 24px;
+    z-index: 1;
+    
+}
+.subscribe-email-dialog-close-animation{
+    right: -412px;
+}
+.subscribe-email-dialog-open-animation{
+    right: 40px
+}
+
+.subscribe-email-dialog-x{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: -16px;
+    right: -16px;
+    cursor: pointer;
+    background-color: var(--darkBlue);
+    color: var(--white);
+}
+.subscribe-email-dialog-content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.subscribe-email-dialog-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.subscribe-dialog-text{
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--darkBlue);
+    max-width: 252px;
+}
+.subscribe-dialog-email-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--darkBlue);
+    min-width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    color: var(--white);
+}
+.subscribe-btn{
+    background-color: var(--darkBlue);
+    color: var(--white);
+    border-radius: 20px;
+    padding: 12px;
+    cursor: pointer;
+    margin-top: -24px;
+    border: 2px solid transparent;
+    font-size: 16px;
+}
+.subscribe-btn:hover{
+    background-color: var(--white);
+    border: 2px solid var(--darkBlue);
+    color: var(--darkBlue);
+}
+.subscribe-dialog-email-input{
+    background-color: rgb(237, 242, 247);
+    padding: 12px;
+    border-radius: 20px;
+    outline: none;
+    font-size: 20px;
+    color: var(--darkBlue);
+}
+.subscribe-email-dialog-close-icon{
+    font-size: 20px;
+}
+.subscribe-dialog-middle-text{
+    font-size: 16px;
+}
+@media (max-width:768px) {
+    .subscribe-email-dialog-open-animation{
+        right: 4%;
+    }
+    .subscribe-email-dialog-close-animation{
+        right: -710px;
+    }
+   .subscribe-email-dialog-box{
+        width: 50%;
+
+   }
+   .subscribe-dialog-email-input{
+    text-align: center;
+   }
+   
+}
+@media (max-width:640px) {
+
+    .subscribe-email-dialog-open-animation{
+        position: fixed;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+   .subscribe-email-dialog-box{
+    width: 72%;
+   }
+   .subscribe-btn{
+    margin-top: 0px;
+   }
+   .subscribe-dialog-text{
+    font-size: 20px;
+   }
+   .dialog-middle-text{
+    font-size: 16px;
+   }
+  
+   
+}

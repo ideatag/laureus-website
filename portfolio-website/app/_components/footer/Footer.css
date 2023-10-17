@@ -1,0 +1,176 @@
+.footer-container {
+  background-color: var(--darkBlue);
+  color: var(--lightGray);
+  justify-content: center;
+  padding: 16px 0px;
+}
+
+.partners-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.partners-image {
+  width: auto;
+  height: 28px;
+}
+
+.social-media-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 8px;
+  padding-top: 8px;
+}
+
+.social-media-links a {
+  color: var(--white);
+  margin-left: 16px;
+  width: 24px;
+  height: 24px;
+}
+
+.footer-information-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.information-link {
+  color: var(--white);
+  font-size: 12px;
+  text-decoration: none;
+  padding: 4px;
+  margin: 0px 4px;
+}
+.information-link:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: var(--white);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.information-link:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.footer-paragraph {
+  font-size: 12px;
+  margin: 16px 0px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.footer-horizontal-line {
+  background-color: var(--mediumBlue);
+  height: 1px;
+  position: absolute;
+  left: -4px;
+  right: 0px;
+}
+
+.footer-paragraph-copyright {
+  font-size: 12px;
+  padding: 16px 0px 0px;
+  text-align: center;
+  line-height: 1.6;
+  position: relative;
+}
+
+.footer-paragraph-credits {
+  font-size: 12px;
+  text-align: center;
+  line-height: 1.6;
+}
+.partners-social-media-align {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .partners-image {
+    width: auto;
+    height: 52px;
+  }
+  .iwc-logo {
+    height: 64px;
+  }
+  .ms-logo {
+    height: 60px;
+  }
+
+  .social-media-links {
+    justify-content: right;
+  }
+
+  .footer-paragraphs-aligned {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .footer-horizontal-line {
+    display: none;
+  }
+
+  .footer-information-links {
+    justify-content: left;
+  }
+
+  .information-link {
+    margin: 0px 16px 0px 0px;
+    padding: 0px;
+    font-size: 14px;
+    position: relative;
+  }
+
+  .information-link + .information-link:before {
+    content: '';
+    width: 2px;
+    height: 12px;
+    position: absolute;
+    left: -8px;
+    background-color: var(--white);
+    transform: translateY(40%);
+  }
+
+  .footer-paragraph {
+    font-size: 14px;
+    text-align: left;
+    width: 50%;
+  }
+
+  .footer-paragraph-copyright,
+  .footer-paragraph-credits {
+    text-align: right;
+    font-size: 14px;
+  }
+
+  .copyright-credits-align {
+    width: 40%;
+  }
+}
+
+@media (min-width: 640px) {
+  .partners-social-media-align {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .social-media-links {
+    padding: 0px;
+  }
+  .footer-information-links {
+    margin-top: 20px;
+  }
+}

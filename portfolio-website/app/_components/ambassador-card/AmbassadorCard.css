@@ -1,0 +1,68 @@
+.ambassador-card-container {
+  width: 384px;
+  height: 468px;
+  overflow: hidden;
+  position: relative;
+}
+
+.ambassador-card {
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: transform 0.5s;
+}
+
+.ambassador-card-content {
+  padding: 20px;
+  color: var(--white);
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0;
+  width: calc(100% - 40px);
+}
+
+.ambassador-card-container:hover .ambassador-card {
+  transform: scale(1.1);
+}
+
+.label-ambassador {
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 1.2px;
+}
+
+.first-name-ambassador {
+  line-height: 0.95;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.second-name-ambassador {
+  line-height: 0.95;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.sport-category {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+}
+
+.country-data {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  margin-top: 8px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+}
+
+.flag-image {
+  width: 20px;
+  height: 14px;
+  margin-right: 12px;
+}

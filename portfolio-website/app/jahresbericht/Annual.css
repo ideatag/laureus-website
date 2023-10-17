@@ -1,0 +1,70 @@
+.annualreport-body-style {
+  background-color: var(--lightGray);
+}
+.annualreport-text h2 {
+  font-size: 28px;
+  text-align: center;
+}
+.annualreport-header {
+  height: 240px;
+  background-color: var(--darkBlue);
+}
+.annualreport-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1180px;
+  margin: auto;
+  padding: 32px;
+  background: var(--white);
+  border-radius: 8px;
+  transform: translateY(-100px);
+  align-items: center;
+}
+.annualreport-image {
+  margin-left: auto;
+  margin-right: auto;
+}
+.annualreport-image img {
+  max-width: 100%;
+  height: auto;
+}
+.annualreport-text {
+  color: var(--darkBlue);
+  padding-top: 32px;
+  hyphens: auto;
+}
+.annualreport-text > p {
+  padding-top: 24px;
+}
+.annualreport-bold-text {
+  font-weight: bold;
+}
+@media (min-width: 640px) {
+  .annualreport-image {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .annualreport-text h2 {
+    font-size: 46px;
+  }
+
+  .annualreport-container {
+    align-items: flex-start;
+  }
+}
+@media (min-width: 1024px) {
+  .annualreport-container {
+    flex-direction: row;
+  }
+  .annualreport-text {
+    padding-top: 0;
+  }
+  .annualreport-text h2 {
+    text-align: start;
+  }
+  .annualreport-image {
+    margin-right: 32px;
+    min-width: 400px;
+    min-height: 400px;
+  }
+}

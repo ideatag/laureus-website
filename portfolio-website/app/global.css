@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+:root {
+  --darkBlue: #02294b;
+  --lightGray: #f2f2f2;
+  --white: #ffffff;
+  --mediumBlue: #3a476b; /* hover*/
+  --lightBlue: #eef3fd; /* hover */
+  --lightTurquoise: #10afcc;
+}
+
+.wrapper-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0px 16px;
+  width: -webkit-fill-available;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* 
+  marimi text: multiplii de 4
+*/
+
+/*
+  font family: Roboto
+*/
+
+/* 
+  'sm': '640px',
+  // => @media (min-width: 640px) { ... }
+
+  'md': '768px',
+  // => @media (min-width: 768px) { ... }
+
+  'lg': '1024px',
+  // => @media (min-width: 1024px) { ... }
+
+  'xl': '1280px',
+  // => @media (min-width: 1280px) { ... }
+
+  '2xl': '1536px',
+  // => @media (min-width: 1536px) { ... } 
+*/
+
+/* 
+  culori din tema 
+*/

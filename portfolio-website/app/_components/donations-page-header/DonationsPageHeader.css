@@ -1,0 +1,78 @@
+.donations-page-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: center;
+  background-color: var(--darkBlue);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.donations-page-header {
+  /*min-height: calc(100vh - 86px);*/
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--white);
+}
+
+.donations-page-header-main-title {
+  margin: 10px;
+  padding: 4px;
+  font-size: 56px;
+}
+
+.donations-page-header-sub-title {
+  margin: 10px;
+  margin-bottom: 0;
+  padding: 4px;
+  font-size: 18px;
+}
+
+.donations-page-header-social-media-section {
+  display: flex;
+  margin: 10px;
+}
+
+.social-media-section-separation-dot {
+  padding: 2px 4px;
+}
+
+.social-media-section-separation-dot:last-child {
+  display: none;
+}
+
+.donations-page-header-social-media-section a {
+  color: var(--white);
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.12em;
+  display: inline-block;
+  padding: 4px;
+  position: relative;
+}
+
+.donations-page-header-social-media-section a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: var(--white);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.donations-page-header-social-media-section a:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+@media (min-width: 1024px) {
+  .donations-page-header {
+    width: 40%;
+    justify-content: center;
+  }
+}

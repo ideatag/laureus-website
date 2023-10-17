@@ -1,0 +1,62 @@
+.donations-banner-container {
+  background: linear-gradient(
+      90deg,
+      rgba(2, 41, 75, 1) 25%,
+      rgba(66, 137, 199, 0) 100%,
+      rgba(246, 241, 245, 0) 80%
+    ),
+    url(https://www.laureus.com/getmedia/a686a970-6300-41f7-91cc-dcb667d44ed1/93518641_JH_7476_8C2FDD6C0300DAB89D420DD98667A1F0.jpg?width=1280);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.donations-banner-data {
+  margin: auto;
+  padding: 80px 24px;
+}
+.donations-banner-data h4 {
+  text-transform: uppercase;
+  font-size: 14px;
+  margin: 12px 0 4px 0;
+  color: rgba(255, 255, 255, 0.66);
+}
+.donations-banner-data h3 {
+  margin: 16px 0 4px 0;
+  font-size: 48px;
+  color: var(--white);
+}
+
+.donations-banner-link {
+  text-decoration: none;
+}
+
+.donations-banner-data p {
+  color: var(--white);
+  font-weight: bold;
+  font-size: 18px;
+  max-width: 600px;
+}
+
+.donations-banner-button {
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 28px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: transparent;
+  border: 2px solid var(--white);
+  width: 132px;
+  height: 44px;
+  border-radius: 200px;
+  transition: background 0.3s;
+}
+.donations-banner-button:hover {
+  background: var(--white);
+  color: var(--darkBlue);
+}
+@media (min-width: 640px) {
+  .donations-banner-data {
+    padding: 80px 112px;
+  }
+}

@@ -1,0 +1,90 @@
+.financing-programmes-card-section {
+  display: flex;
+}
+
+.financing-programmes-card-container {
+  min-width: 320px;
+  min-height: 320px;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.financing-programmes-card {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: transform 0.5s;
+}
+
+.financing-programmes-card-content {
+  color: #00153a;
+  font-weight: 400;
+  font-size: 12px;
+  position: relative;
+  bottom: 0;
+  width: 320px;
+  height: 148px;
+  background-color: #f2f2f3;
+}
+
+.financing-programmes-card-container:hover .financing-programmes-card {
+  transform: scale(1.1);
+}
+
+.country-data-container {
+  text-transform: uppercase;
+  display: flex;
+  color: rgb(87, 87, 87);
+  align-items: center;
+  font-size: 12px;
+  padding: 16px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.flag-image {
+  width: 24px;
+  height: 16px;
+  margin-right: 12px;
+}
+
+.title-financing-programmes {
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 16px;
+  padding: 0 16px 0 16px;
+  color: rgb(0, 21, 58);
+}
+
+.sport-category-container {
+  display: flex;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  padding: 0 16px 16px 16px;
+  color: rgb(2, 41, 75);
+}
+
+.sport-category {
+  font-weight: 500;
+  
+}
+
+.sport-category-item {
+  display: flex;
+  flex-direction: row;
+  margin-right: 32px;
+}
+
+.sport-category-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}

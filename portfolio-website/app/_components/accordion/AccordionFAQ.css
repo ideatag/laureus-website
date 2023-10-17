@@ -1,0 +1,22 @@
+
+
+.donations-faq-display-question {
+  font-weight: bold;
+}
+
+
+.donations-faq-container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.donations-faq-question-icon {
+  color: var(--darkBlue);
+  padding: 4px;
+}
+
+.donations-faq-title{
+
+  text-align: center;
+  margin-bottom: 12px;
+}

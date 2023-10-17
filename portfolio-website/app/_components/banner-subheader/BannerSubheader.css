@@ -1,0 +1,19 @@
+.banner-subheader-container {
+  padding-top: 32px;
+  text-align: center;
+  color: var(--darkBlue);
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  justify-content: center;
+}
+
+.banner-subheader-first-paragraph {
+  margin-bottom: 20px;
+}
+
+.banner-subheader-second-paragraph {
+  margin-bottom: 20px;
+}
