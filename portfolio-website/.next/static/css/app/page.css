@@ -338,6 +338,29 @@
   }
 }
 
+/*!************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./app/_components/banner-subheader/BannerSubheader.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************/
+.banner-subheader-container {
+  padding-top: 32px;
+  text-align: center;
+  color: var(--darkBlue);
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  justify-content: center;
+}
+
+.banner-subheader-first-paragraph {
+  margin-bottom: 20px;
+}
+
+.banner-subheader-second-paragraph {
+  margin-bottom: 20px;
+}
+
 /*!***************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./app/_components/social-focus-areas/SocialFocusAreas.css ***!
   \***************************************************************************************************************************************************************************************************************************************************************************************************/
@@ -491,28 +514,5 @@
   .homepage-header-elements > h1 {
     font-size: 44px;
   }
-}
-
-/*!************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./app/_components/banner-subheader/BannerSubheader.css ***!
-  \************************************************************************************************************************************************************************************************************************************************************************************************/
-.banner-subheader-container {
-  padding-top: 32px;
-  text-align: center;
-  color: var(--darkBlue);
-  font-size: 22px;
-  font-weight: bold;
-  margin: 0 auto;
-  margin-top: 32px;
-  margin-bottom: 32px;
-  justify-content: center;
-}
-
-.banner-subheader-first-paragraph {
-  margin-bottom: 20px;
-}
-
-.banner-subheader-second-paragraph {
-  margin-bottom: 20px;
 }
 
